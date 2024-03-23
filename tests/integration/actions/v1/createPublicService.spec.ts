@@ -1,6 +1,6 @@
-import { ApiError, BadRequestError } from '@diia-inhouse/errors'
-import TestKit from '@diia-inhouse/test'
-import { PublicServiceCode } from '@diia-inhouse/types'
+import { ApiError, BadRequestError } from '@kant2002-diia-inhouse/errors'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { PublicServiceCode } from '@kant2002-diia-inhouse/types'
 
 import CreatePublicServiceAction from '@actions/v1/createPublicService'
 

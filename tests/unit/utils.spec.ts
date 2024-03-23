@@ -1,5 +1,5 @@
-import { PlatformType } from '@diia-inhouse/types'
-import { ArrayRule, StringRule } from '@diia-inhouse/validators'
+import { PlatformType } from '@kant2002-diia-inhouse/types'
+import { ArrayRule, StringRule } from '@kant2002-diia-inhouse/validators'
 
 import Utils from '@src/utils'
 

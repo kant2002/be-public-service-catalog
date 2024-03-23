@@ -1,12 +1,12 @@
 import { asClass, asFunction, asValue } from 'awilix'
 
-import { DepsFactoryFn, DepsResolver, GrpcClientFactory, GrpcService } from '@diia-inhouse/diia-app'
+import { DepsFactoryFn, DepsResolver, GrpcClientFactory, GrpcService } from '@kant2002-diia-inhouse/diia-app'
 
-import { AnalyticsService } from '@diia-inhouse/analytics'
-import { DatabaseService, DbType } from '@diia-inhouse/db'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { HealthCheck } from '@diia-inhouse/healthcheck'
-import { UserServiceDefinition } from '@diia-inhouse/user-service-client'
+import { AnalyticsService } from '@kant2002-diia-inhouse/analytics'
+import { DatabaseService, DbType } from '@kant2002-diia-inhouse/db'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { HealthCheck } from '@kant2002-diia-inhouse/healthcheck'
+import { UserServiceDefinition } from '@kant2002-diia-inhouse/user-service-client'
 
 import Utils from './utils'
 

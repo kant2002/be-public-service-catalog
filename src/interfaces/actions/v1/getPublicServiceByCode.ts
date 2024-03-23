@@ -1,4 +1,4 @@
-import { PartnerActionArguments, PublicServiceSettings } from '@diia-inhouse/types'
+import { PartnerActionArguments, PublicServiceSettings } from '@kant2002-diia-inhouse/types'
 
 import { GetPublicServiceByCodeRequest } from '@src/generated'
 

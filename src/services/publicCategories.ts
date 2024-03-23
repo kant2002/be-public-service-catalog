@@ -1,9 +1,9 @@
 import { FilterQuery } from 'mongoose'
 
-import { MongoDBErrorCode } from '@diia-inhouse/db'
-import { BadRequestError, ModelNotFoundError } from '@diia-inhouse/errors'
-import { ActHeaders, AppUser, PublicServiceCategoryCode, UserFeatures } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+import { MongoDBErrorCode } from '@kant2002-diia-inhouse/db'
+import { BadRequestError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import { ActHeaders, AppUser, PublicServiceCategoryCode, UserFeatures } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import {
     GetPublicServiceCategoriesListResponse,

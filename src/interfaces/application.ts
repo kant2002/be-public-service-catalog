@@ -1,9 +1,9 @@
-import { GrpcService } from '@diia-inhouse/diia-app'
+import { GrpcService } from '@kant2002-diia-inhouse/diia-app'
 
-import { AnalyticsService } from '@diia-inhouse/analytics'
-import { DatabaseService } from '@diia-inhouse/db'
-import { HealthCheck } from '@diia-inhouse/healthcheck'
-import { UserServiceClient } from '@diia-inhouse/user-service-client'
+import { AnalyticsService } from '@kant2002-diia-inhouse/analytics'
+import { DatabaseService } from '@kant2002-diia-inhouse/db'
+import { HealthCheck } from '@kant2002-diia-inhouse/healthcheck'
+import { UserServiceClient } from '@kant2002-diia-inhouse/user-service-client'
 
 import Utils from '@src/utils'
 

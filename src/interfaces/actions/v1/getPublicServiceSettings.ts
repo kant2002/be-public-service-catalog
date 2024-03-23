@@ -1,4 +1,4 @@
-import { PublicServiceSettings, ServiceActionArguments } from '@diia-inhouse/types'
+import { PublicServiceSettings, ServiceActionArguments } from '@kant2002-diia-inhouse/types'
 
 import { PublicServiceSettingsRequest } from '@src/generated'
 

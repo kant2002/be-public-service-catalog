@@ -1,7 +1,7 @@
 const utilsMock = { handleError: jest.fn() }
 
-jest.mock('@diia-inhouse/utils', () => {
-    const originUtils = jest.requireActual('@diia-inhouse/utils')
+jest.mock('@kant2002-diia-inhouse/utils', () => {
+    const originUtils = jest.requireActual('@kant2002-diia-inhouse/utils')
 
     return {
         ...originUtils,
@@ -12,11 +12,11 @@ jest.mock('@diia-inhouse/utils', () => {
     }
 })
 
-import { MongoDBErrorCode } from '@diia-inhouse/db'
-import { ApiError, BadRequestError, ModelNotFoundError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import MongooseMock from '@diia-inhouse/test/mongooseMock'
-import { PublicServiceCategoryCode } from '@diia-inhouse/types'
+import { MongoDBErrorCode } from '@kant2002-diia-inhouse/db'
+import { ApiError, BadRequestError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import MongooseMock from '@kant2002-diia-inhouse/test/mongooseMock'
+import { PublicServiceCategoryCode } from '@kant2002-diia-inhouse/types'
 
 import PublicService from '@services/public'
 import PublicServiceCategoriesService from '@services/publicCategories'

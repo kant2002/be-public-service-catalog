@@ -4,8 +4,8 @@ const utilsMock = {
 }
 const compareVersionsMock = { compare: jest.fn() }
 
-jest.mock('@diia-inhouse/utils', () => {
-    const originUtils = jest.requireActual('@diia-inhouse/utils')
+jest.mock('@kant2002-diia-inhouse/utils', () => {
+    const originUtils = jest.requireActual('@kant2002-diia-inhouse/utils')
 
     return {
         ...originUtils,
@@ -21,11 +21,11 @@ import { AsyncLocalStorage } from 'async_hooks'
 
 import { clone, merge } from 'lodash'
 
-import { MongoDBErrorCode } from '@diia-inhouse/db'
-import { ApiError, BadRequestError, ModelNotFoundError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import MongooseMock from '@diia-inhouse/test/mongooseMock'
-import { AlsData, PlatformType, ProfileFeature, PublicServiceCode, PublicServiceStatus, SessionType } from '@diia-inhouse/types'
+import { MongoDBErrorCode } from '@kant2002-diia-inhouse/db'
+import { ApiError, BadRequestError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import MongooseMock from '@kant2002-diia-inhouse/test/mongooseMock'
+import { AlsData, PlatformType, ProfileFeature, PublicServiceCode, PublicServiceStatus, SessionType } from '@kant2002-diia-inhouse/types'
 
 import PublicServiceService from '@services/public'
 

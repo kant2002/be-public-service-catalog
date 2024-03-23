@@ -3,10 +3,10 @@ import { AsyncLocalStorage } from 'async_hooks'
 import compareVersions from 'compare-versions'
 import { FilterQuery } from 'mongoose'
 
-import { clientCallOptions } from '@diia-inhouse/diia-app'
+import { clientCallOptions } from '@kant2002-diia-inhouse/diia-app'
 
-import { MongoDBErrorCode } from '@diia-inhouse/db'
-import { BadRequestError, ModelNotFoundError } from '@diia-inhouse/errors'
+import { MongoDBErrorCode } from '@kant2002-diia-inhouse/db'
+import { BadRequestError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
 import {
     ActHeaders,
     ActionVersion,
@@ -20,9 +20,9 @@ import {
     PublicServiceStatus,
     SessionType,
     UserFeatures,
-} from '@diia-inhouse/types'
-import { UserServiceClient } from '@diia-inhouse/user-service-client'
-import { profileFeaturesToList, utils } from '@diia-inhouse/utils'
+} from '@kant2002-diia-inhouse/types'
+import { UserServiceClient } from '@kant2002-diia-inhouse/user-service-client'
+import { profileFeaturesToList, utils } from '@kant2002-diia-inhouse/utils'
 
 import { GetPublicServicesListResponse, PublicService } from '@src/generated'
 

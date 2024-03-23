@@ -1,8 +1,8 @@
-import { MetricsConfig } from '@diia-inhouse/diia-app'
+import { MetricsConfig } from '@kant2002-diia-inhouse/diia-app'
 
-import { AppDbConfig, ReplicaSetNodeConfig } from '@diia-inhouse/db'
-import { EnvService } from '@diia-inhouse/env'
-import { HealthCheckConfig } from '@diia-inhouse/healthcheck'
+import { AppDbConfig, ReplicaSetNodeConfig } from '@kant2002-diia-inhouse/db'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { HealthCheckConfig } from '@kant2002-diia-inhouse/healthcheck'
 
 // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 export default async (envService: EnvService) => ({

@@ -1,5 +1,5 @@
-import TestKit from '@diia-inhouse/test'
-import { PlatformType, PublicServiceCode, SessionType } from '@diia-inhouse/types'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { PlatformType, PublicServiceCode, SessionType } from '@kant2002-diia-inhouse/types'
 
 import IsPublicServiceAvailableByCodeAction from '@actions/v1/isPublicServiceAvailableByCode'
 

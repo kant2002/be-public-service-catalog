@@ -1,6 +1,6 @@
-import { ModelNotFoundError } from '@diia-inhouse/errors'
-import TestKit from '@diia-inhouse/test'
-import { PublicServiceCode } from '@diia-inhouse/types'
+import { ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { PublicServiceCode } from '@kant2002-diia-inhouse/types'
 
 import GetPublicServiceByCode from '@actions/v1/getPublicServiceByCode'
 

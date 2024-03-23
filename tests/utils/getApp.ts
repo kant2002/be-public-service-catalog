@@ -1,8 +1,8 @@
 import { asClass } from 'awilix'
 
-import { Application, GrpcService, ServiceContext, ServiceOperator } from '@diia-inhouse/diia-app'
+import { Application, GrpcService, ServiceContext, ServiceOperator } from '@kant2002-diia-inhouse/diia-app'
 
-import { mockClass } from '@diia-inhouse/test'
+import { mockClass } from '@kant2002-diia-inhouse/test'
 
 import configFactory from '@src/config'
 

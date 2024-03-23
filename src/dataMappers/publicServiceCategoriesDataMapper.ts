@@ -1,6 +1,6 @@
 import { head } from 'lodash'
 
-import { PublicServiceCategoryCode, PublicServiceStatus, PublicServiceTabCode } from '@diia-inhouse/types'
+import { PublicServiceCategoryCode, PublicServiceStatus, PublicServiceTabCode } from '@kant2002-diia-inhouse/types'
 
 import {
     GetPublicServicesResponse,

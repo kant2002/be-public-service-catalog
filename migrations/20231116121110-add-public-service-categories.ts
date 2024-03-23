@@ -1,7 +1,7 @@
 import 'module-alias/register'
 import { Db } from 'mongodb'
 
-import { PublicServiceCategoryCode, PublicServiceTabCode } from '@diia-inhouse/types'
+import { PublicServiceCategoryCode, PublicServiceTabCode } from '@kant2002-diia-inhouse/types'
 
 import { PublicServiceCategoryStatus } from '@src/generated'
 

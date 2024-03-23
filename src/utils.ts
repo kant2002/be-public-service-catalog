@@ -1,4 +1,4 @@
-import { ArrayRule, ObjectRule, StringRule } from '@diia-inhouse/validators'
+import { ArrayRule, ObjectRule, StringRule } from '@kant2002-diia-inhouse/validators'
 
 export default class Utils {
     toObjectValidationRule(props: string[], rule: ObjectRule | ArrayRule | StringRule, optional = true): ObjectRule {

@@ -1,6 +1,6 @@
 import { Model, Schema, model, models } from 'mongoose'
 
-import { PublicServiceCategoryCode, PublicServiceTabCode } from '@diia-inhouse/types'
+import { PublicServiceCategoryCode, PublicServiceTabCode } from '@kant2002-diia-inhouse/types'
 
 import { PublicServiceCategory, PublicServiceCategoryStatus } from '@src/generated'
 

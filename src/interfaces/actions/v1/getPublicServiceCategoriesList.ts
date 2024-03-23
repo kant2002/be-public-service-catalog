@@ -1,4 +1,4 @@
-import { PartnerActionArguments } from '@diia-inhouse/types'
+import { PartnerActionArguments } from '@kant2002-diia-inhouse/types'
 
 import { GetPublicServiceCategoriesListRequest, GetPublicServiceCategoriesListResponse } from '@src/generated'
 

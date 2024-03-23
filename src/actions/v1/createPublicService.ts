@@ -1,4 +1,4 @@
-import { GrpcAppAction } from '@diia-inhouse/diia-app'
+import { GrpcAppAction } from '@kant2002-diia-inhouse/diia-app'
 
 import {
     ActionVersion,
@@ -10,8 +10,8 @@ import {
     PublicServiceContextMenuType,
     PublicServiceStatus,
     SessionType,
-} from '@diia-inhouse/types'
-import { ObjectRule, ValidationSchema } from '@diia-inhouse/validators'
+} from '@kant2002-diia-inhouse/types'
+import { ObjectRule, ValidationSchema } from '@kant2002-diia-inhouse/validators'
 
 import Utils from '@src/utils'
 

@@ -1,4 +1,4 @@
-import { PublicServiceCategoryCode, PublicServiceStatus } from '@diia-inhouse/types'
+import { PublicServiceCategoryCode, PublicServiceStatus } from '@kant2002-diia-inhouse/types'
 
 import { PublicServiceCategoryStatus } from '@src/generated'
 

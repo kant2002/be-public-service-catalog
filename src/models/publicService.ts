@@ -11,7 +11,7 @@ import {
     PublicServiceContextMenuType,
     PublicServiceStatus,
     SessionType,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import { PublicService } from '@src/generated'
 

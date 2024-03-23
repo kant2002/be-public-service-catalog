@@ -1,5 +1,5 @@
-import TestKit from '@diia-inhouse/test'
-import { PublicServiceCode } from '@diia-inhouse/types'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { PublicServiceCode } from '@kant2002-diia-inhouse/types'
 
 import GetPublicServiceContextMenuAction from '@src/actions/v1/getPublicServiceContextMenu'
 

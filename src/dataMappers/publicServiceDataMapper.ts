@@ -1,6 +1,6 @@
 import { FlattenMaps, Types } from 'mongoose'
 
-import { PublicServiceSettings } from '@diia-inhouse/types'
+import { PublicServiceSettings } from '@kant2002-diia-inhouse/types'
 
 import { PublicService } from '@src/generated'
 

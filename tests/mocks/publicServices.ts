@@ -5,7 +5,7 @@ import {
     PublicServiceStatus,
     PublicServiceTabCode,
     SessionType,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import { GetPublicServicesResponse, PublicService, PublicServiceCategory, PublicServiceCategoryStatus } from '@src/generated'
 

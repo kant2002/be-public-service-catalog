@@ -1,7 +1,7 @@
 import 'module-alias/register'
 import { Db } from 'mongodb'
 
-import { Env } from '@diia-inhouse/env'
+import { Env } from '@kant2002-diia-inhouse/env'
 import {
     PlatformType,
     PublicServiceCategoryCode,
@@ -9,7 +9,7 @@ import {
     PublicServiceContextMenuType,
     PublicServiceStatus,
     SessionType,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 const collectionName = 'publicservices'
 

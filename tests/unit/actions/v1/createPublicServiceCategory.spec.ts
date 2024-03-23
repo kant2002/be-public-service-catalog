@@ -1,5 +1,5 @@
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { PublicServiceCategoryCode } from '@diia-inhouse/types'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { PublicServiceCategoryCode } from '@kant2002-diia-inhouse/types'
 
 import { PublicServiceCategoryStatus } from '@src/generated'
 

@@ -1,7 +1,7 @@
 import { head } from 'lodash'
 
-import TestKit from '@diia-inhouse/test'
-import { DiiaOfficeStatus, ProfileFeature, PublicServiceCode, PublicServiceStatus, PublicServiceTabCode } from '@diia-inhouse/types'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { DiiaOfficeStatus, ProfileFeature, PublicServiceCode, PublicServiceStatus, PublicServiceTabCode } from '@kant2002-diia-inhouse/types'
 
 import GetPublicServicesAction from '@actions/v3/getPublicServices'
 
