@@ -1,4 +1,4 @@
-import { MetricsConfig } from '@kant2002-diia-inhouse/diia-app'
+import { BalancingStrategy, MetricsConfig, TransporterConfig } from '@kant2002-diia-inhouse/diia-app'
 
 import { AppDbConfig, ReplicaSetNodeConfig } from '@kant2002-diia-inhouse/db'
 import { EnvService } from '@kant2002-diia-inhouse/env'
@@ -6,6 +6,17 @@ import { HealthCheckConfig } from '@kant2002-diia-inhouse/healthcheck'
 
 // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 export default async (envService: EnvService) => ({
+    isMoleculerEnabled: true,
+    transporter: <TransporterConfig>{
+        type: envService.getVar('TRANSPORT_TYPE'),
+        options: envService.getVar('TRANSPORT_OPTIONS', 'object', {}),
+    },
+
+    balancing: <BalancingStrategy>{
+        strategy: process.env.BALANCING_STRATEGY_NAME,
+        strategyOptions: envService.getVar('BALANCING_STRATEGY_OPTIONS', 'object', {}),
+    },
+
     healthCheck: <HealthCheckConfig>{
         isEnabled: process.env.HEALTH_CHECK_IS_ENABLED === 'true',
         port: process.env.HEALTH_CHECK_IS_PORT ? parseInt(process.env.HEALTH_CHECK_IS_PORT, 10) : 3000,
